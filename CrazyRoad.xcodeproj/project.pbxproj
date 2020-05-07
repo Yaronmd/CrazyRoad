@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805C4696245B22DA000A3D38 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805C4695245B22DA000A3D38 /* Utils.swift */; };
+		805C46982462E255000A3D38 /* CollisionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805C46972462E255000A3D38 /* CollisionNode.swift */; };
+		805C469A24641BA6000A3D38 /* 8-BIT WONDER.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 805C469924641B8E000A3D38 /* 8-BIT WONDER.TTF */; };
+		805C469C24641C95000A3D38 /* GameHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805C469B24641C95000A3D38 /* GameHUD.swift */; };
 		80901D5024570A6200F6B84B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80901D4F24570A6200F6B84B /* AppDelegate.swift */; };
 		80901D5224570A6200F6B84B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 80901D5124570A6200F6B84B /* art.scnassets */; };
 		80901D5424570A6200F6B84B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80901D5324570A6200F6B84B /* GameViewController.swift */; };
 		80901D5724570A6200F6B84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80901D5524570A6200F6B84B /* Main.storyboard */; };
 		80901D5924570A6500F6B84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80901D5824570A6500F6B84B /* Assets.xcassets */; };
 		80901D5C24570A6500F6B84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80901D5A24570A6500F6B84B /* LaunchScreen.storyboard */; };
+		80901D6424572B5900F6B84B /* LaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80901D6324572B5900F6B84B /* LaneNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		805C4695245B22DA000A3D38 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		805C46972462E255000A3D38 /* CollisionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionNode.swift; sourceTree = "<group>"; };
+		805C469924641B8E000A3D38 /* 8-BIT WONDER.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-BIT WONDER.TTF"; sourceTree = "<group>"; };
+		805C469B24641C95000A3D38 /* GameHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHUD.swift; sourceTree = "<group>"; };
 		80901D4C24570A6200F6B84B /* CrazyRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyRoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80901D4F24570A6200F6B84B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80901D5124570A6200F6B84B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		80901D5824570A6500F6B84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80901D5B24570A6500F6B84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80901D5D24570A6500F6B84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80901D6324572B5900F6B84B /* LaneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaneNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		80901D4E24570A6200F6B84B /* CrazyRoad */ = {
 			isa = PBXGroup;
 			children = (
+				805C469924641B8E000A3D38 /* 8-BIT WONDER.TTF */,
 				80901D4F24570A6200F6B84B /* AppDelegate.swift */,
 				80901D5124570A6200F6B84B /* art.scnassets */,
 				80901D5324570A6200F6B84B /* GameViewController.swift */,
@@ -63,6 +74,10 @@
 				80901D5824570A6500F6B84B /* Assets.xcassets */,
 				80901D5A24570A6500F6B84B /* LaunchScreen.storyboard */,
 				80901D5D24570A6500F6B84B /* Info.plist */,
+				80901D6324572B5900F6B84B /* LaneNode.swift */,
+				805C4695245B22DA000A3D38 /* Utils.swift */,
+				805C46972462E255000A3D38 /* CollisionNode.swift */,
+				805C469B24641C95000A3D38 /* GameHUD.swift */,
 			);
 			path = CrazyRoad;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 				80901D5224570A6200F6B84B /* art.scnassets in Resources */,
 				80901D5C24570A6500F6B84B /* LaunchScreen.storyboard in Resources */,
 				80901D5924570A6500F6B84B /* Assets.xcassets in Resources */,
+				805C469A24641BA6000A3D38 /* 8-BIT WONDER.TTF in Resources */,
 				80901D5724570A6200F6B84B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805C4696245B22DA000A3D38 /* Utils.swift in Sources */,
+				805C469C24641C95000A3D38 /* GameHUD.swift in Sources */,
+				80901D6424572B5900F6B84B /* LaneNode.swift in Sources */,
 				80901D5424570A6200F6B84B /* GameViewController.swift in Sources */,
+				805C46982462E255000A3D38 /* CollisionNode.swift in Sources */,
 				80901D5024570A6200F6B84B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
